@@ -1,0 +1,20 @@
+Selected Team:
+Captain: Finn Russell (Scotland), Position: fly_half, Call-up: start, Value: 19.6, Points: 47
+Tadgh Beirne (Ireland), Position: second_row, Call-up: start, Value: 17, Points: 44
+Aaron Wainwright (Wales), Position: back_row, Call-up: start, Value: 13.2, Points: 41
+Duhan Van Der Merwe (Scotland), Position: back_three, Call-up: start, Value: 18.3, Points: 38
+Monty Ioane (Italy), Position: back_three, Call-up: start, Value: 16.8, Points: 38
+Rio Dyer (Wales), Position: back_three, Call-up: start, Value: 14.7, Points: 36
+Tommy Reffell (Wales), Position: back_row, Call-up: start, Value: 13.1, Points: 34
+Gregory Alldritt (France), Position: back_row, Call-up: start, Value: 17.5, Points: 31
+Dan Sheehan (Ireland), Position: hooker, Call-up: start, Value: 17.5, Points: 28
+Pierre Schoeman (Scotland), Position: prop, Call-up: start, Value: 13.5, Points: 28
+Huw Jones (Scotland), Position: centre, Call-up: start, Value: 16.2, Points: 23
+Paul Gabrillagues (France), Position: second_row, Call-up: start, Value: 10, Points: 22
+Alex Mitchell  (England), Position: scrum_half, Call-up: start, Value: 12.6, Points: 22
+Bundee Aki (Ireland), Position: centre, Call-up: start, Value: 17, Points: 19
+Cyril Baille (France), Position: prop, Call-up: start, Value: 14.1, Points: 16
+Captain: Finn Russell (Scotland), Position: fly_half, Call-up: start, Value: 19.6, Points: 47
+Supersub: Giosue Zilocchi (Italy), Position: prop, Call-up: sub, Value: 6.2, Points: 7
+Total Points of the Selected Team: 643
+Total Value of the Selected Team: 243.5
