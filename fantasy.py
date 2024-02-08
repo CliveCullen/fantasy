@@ -164,28 +164,6 @@ def select_team(players, budget):
     write_selections_to_file(team, captain, supersub, budget - remaining_budget)
 
     return team, captain, supersub, budget - remaining_budget
-def write_selections_to_file(team, captain, supersub, total_value):
-    with open('selected_team.txt', 'w') as file:
-        file.write("Selected Team:\n")
-        total_points = 0
-        for player in team:
-            points = calculate_expected_points(player)
-            if player.is_captain:
-                file.write(f"Captain: {player.name} ({player.country}), Position: {player.position}, Call-up: {player.call_up}, Value: {player.value}, Points: {points}\n")
-            elif player == supersub:
-                file.write(f"Supersub: {player.name} ({player.country}), Position: {player.position}, Call-up: {player.call_up}, Value: {player.value}, Points: {points}\n")
-            else:
-                file.write(f"{player.name} ({player.country}), Position: {player.position}, Call-up: {player.call_up}, Value: {player.value}, Points: {points}\n")
-            total_points += points
-        if captain:
-            captain_points = calculate_expected_points(captain) * 2  # Captain's points worth double
-            total_points += captain_points
-        if supersub:
-            supersub_points = calculate_expected_points(supersub) * 4  # Supersub's points worth quadruple
-            total_points += supersub_points
-        file.write(f"Total Points of the Selected Team: {total_points}\n")
-        file.write(f"Total Value of the Selected Team: {total_value}\n")
-
 
 def write_selections_to_file(team, captain, supersub, total_value):
     with open('selected_team.txt', 'w') as file:
